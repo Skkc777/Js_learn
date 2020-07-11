@@ -44,7 +44,7 @@ console.log("https://google.com/toys${categoryItem} and something else =)"); */
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-const numberOfFilms = +prompt("How much films u watch already?", "");
+/* const numberOfFilms = +prompt("How much films u watch already?", "");
 
 personalMovieDB = {
     count : numberOfFilms,
@@ -63,8 +63,35 @@ const answerA = prompt('Один из последних просмотренн�
      personalMovieDB.movies[answerA] = answerB;
      personalMovieDB.movies[answerC] = answerD;
 
-     console.log(personalMovieDB); 
+     console.log(personalMovieDB);  */
 /* ----------------------------------------------LESSON 12 END--------------------------------------------------------------- */
 
+/* -------------------------------------------------LESSON 13------------------------------------------------------------------- */
+const numberA = 50;
 
+      if( numberA < 49) {
+          console.log('ok');
+      } else if(numberA > 100) {
+          console.log('fine');
+      } else {
+          console.log('error');
+      }
 
+      (numberA === 50) ? console.log('YES!') : console.log('error2');
+
+const numberA = 50; 
+  // тоже самое и со строками то есть знаение переменной '50' и ост. '49' '100' '51'
+switch (numberA) {
+    case 49 : 
+    console.log("not correct");
+    break;
+    case 100 : 
+    console.log("not correct");
+    break;
+    case 51 : 
+    console.log("YES! correct");
+    break;
+    default : 
+    console.log('it not a good =(')
+};
+/* -------------------------------------------------LESSON 13 END --------------------------------------------------------------- */
