@@ -98,13 +98,14 @@ switch (numberA) {
 
 
 /* -------------------------------------------------LESSON 14---------------------------------------------------------------- */
-let num = 50;
+
+/* let num = 50;
 /* while(num <= 55) {
     console.log(num);
     num++;
 } */
 
-do {
+/* do {
     console.log(num);
     num++;
 } while (num < 55);
@@ -117,9 +118,65 @@ for (let i = 1; i < 8; i++) {
 
 for (let i = 1; i < 6; i++) {
     if (i === 6) {
-        break;  // или continue; - пропускает значение в условии или i===6 не выводит в консоль, также можно использовать 
-    }                                          // с определенной переменной для выявления парных или непарных значений...
+        break; */  // или continue; - пропускает значение в условии или i===6 не выводит в консоль, также можно использовать 
+ /*    }                                          // с определенной переменной для выявления парных или непарных значений...
     console.log(i);
+}  */
+
+/* -------------------------------------------------LESSON 14 END ---------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------LESSON 15 -------------------------------------------------------------- */
+
+
+/* const answerA = prompt('Один из последних просмотренных фильмов?', ""),
+      answerB = prompt('На сколько оцените его?', ""),
+      const answerC = prompt('Один из последних просмотренных фильмов?', ""),
+      answerD = prompt('На сколько оцените его?', ""),
+     
+personalMovieDB.movies[answerA] = answerB;
+personalMovieDB.movies[answerC] = answerD;
+
+     console.log(personalMovieDB); */
+//применение цикла вместо выполнения нескольких действий 
+  
+const numberOfFilms = +prompt("How much films u watch already?", "");
+
+personalMovieDB = {
+    count : numberOfFilms,
+    movies : {},
+    actors : {},
+    genres : [],
+    privat : false
+
 }
 
-/* -------------------------------------------------LESSON 14 END ------------------------------------------------------------- */
+for (let i = 0; i < 2; i++) {
+        const answerA = prompt('Один из последних просмотренных фильмов?', ""),
+        answerB = prompt('На сколько оцените его?', "");
+
+        if (answerA != null && answerB != null && answerA != '' && answerB != '' && answerA.length < 50) {
+            personalMovieDB.movies[answerA] = answerB; 
+            console.log('done');
+        } else {
+            console.log('Error');
+            i--; // уменьщение значения на -1 по причине невыполнения условия if что приводит к возврату действия хотя
+        }                  // изначально уже идет выполнение переменной i + 1(i++); то есть i + 1 = 1 дальше false
+                               // и возврат к выполнению действий что ведет к i + 1 = 2; так как второе действие цикла.
+        if (personalMovieDB.count < 10) {
+            console.log('Просмотрено достаточно мало фильмов');
+        } else if(personalMovieDB.count >= 10 && personalMovieDB < 30) {
+            console.log('Маловато будет за жизнь');
+        } else if (personalMovieDB.count >=30) {
+            console.log('Киноман чертов!:D');
+        } else {
+            console.log("Error");
+        }
+    }
+        console.log(personalMovieDB);
+
+
+/* -------------------------------------------------LESSON 15 END --------------------------------------------------------- */
