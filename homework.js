@@ -1,4 +1,4 @@
-
+`use strict`;
 // --------------------------------------- Homework(ls12;ls15) -----------------------------------------------------------//
 /*
 const numberOfFilms = +prompt("How much films u watch already?", ""),
