@@ -8,4 +8,4 @@ Lesson 16-17 into script2.js
 
 Lesson 18 into Homework.js
 
-Lesson 19 into script3.js
+Lesson 19-20 into script3.js
