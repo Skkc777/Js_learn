@@ -9,3 +9,5 @@ Lesson 16-17 into script2.js  (les.16 - Функции; les.17 - Методы и
 Lesson 18 into Homework.js  (les.18 - Домашнее задание);
 
 Lesson 19-21 into script3.js (les.19 - callback function; les.20 - немного об Object; les.21 - Массивы и ПсевдоМассивы);
+
+Lesson 22 into script4.js (les.22 - Ссылки к обьекту или передача по значению/spread методы);
