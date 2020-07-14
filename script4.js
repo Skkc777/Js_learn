@@ -57,8 +57,8 @@ const add = {
 
 // console.log(Object.assign(numbers, add)); //создание независимого обьекта с добавлением add;
 
-const clone = Object.assign({}, add);
-
+const clone = Object.assign({}, add);  //Создание копии переменной add;
+// console.log (Object.assign(numbers, add));   //обьеденение нескольких обьектов в один;
 clone.d = 20;
 
 console.log(add);
