@@ -11,3 +11,6 @@ Lesson 18 into Homework.js  (les.18 - Домашнее задание);
 Lesson 19-21 into script3.js (les.19 - callback function; les.20 - немного об Object; les.21 - Массивы и ПсевдоМассивы);
 
 Lesson 22 into script4.js (les.22 - Ссылки к обьекту или передача по значению/spread методы);
+
+(Создана папка с файлами script для упорядочивания уроков);
+Lesson 23 into script5.js (les.23 - Протипно-ориентированное программирование, прототипы к обьекту);
