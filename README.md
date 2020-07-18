@@ -19,5 +19,7 @@ Lesson 24 into Homework.js (les.24 - Домашнее задание);
 
 Lesson 25-27 into script5.js (les.25-27 - вопросы, задачки и работа с консолью);
 
-Lesson 28 into lesson_28.js (les.28 - DOM(Document object model and query(Запросы для работы с тегами и классами и айди);
+Lesson 28 into lesson_28-29.js (les.28 - DOM(Document object model and query(Запросы для работы с тегами и классами и айди);
+
+Lesson 29 into lesson_28-29.js (les.29 - Работа с тегами, классами,айди, CSS(Разбор по участкам) и полностью с DOM через Javascript);
 
