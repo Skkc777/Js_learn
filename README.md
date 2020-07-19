@@ -23,3 +23,4 @@ Lesson 28 into lesson_28-29.js (les.28 - DOM(Document object model and query(З�
 
 Lesson 29 into lesson_28-29.js (les.29 - Работа с тегами, классами,айди, CSS(Разбор по участкам) и полностью с DOM через Javascript);
 
+Lesson 30 its project(folder) (les.30 - Homework и обьяснения(работа со страницей));
