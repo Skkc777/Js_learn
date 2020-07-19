@@ -32,3 +32,5 @@ Lesson 32 its folder Lesson_32 (les.32 -  Навигация по DOM - элем
 Lesson 33 its project(033_script.js) (les.33 - Homework и обьяснения(работа со страницей) БОЛЬШОЙ ОБЬЕКТ!!!);
 
 Lesson 34 its l.34(eventsForMobile.js) (les.34 - Мобильные События и их возможности);
+
+Lesson 35 its folder js (les.35 - defer/async динамическая загрузка скриптов в браузер);
