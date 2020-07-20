@@ -34,3 +34,5 @@ Lesson 33 its project(033_script.js) (les.33 - Homework и обьяснения(
 Lesson 34 its l.34(eventsForMobile.js) (les.34 - Мобильные События и их возможности);
 
 Lesson 35 its folder js (les.35 - defer/async динамическая загрузка скриптов в браузер);
+
+Lesson 36-37 folder les.37 (ClassList и делегирование событий);

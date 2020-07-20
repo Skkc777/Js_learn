@@ -1,0 +1,35 @@
+body {
+   background-color: rgb(153, 162, 185);
+   width: auto;
+}
+
+#first {
+    width: auto;
+    height: 100px;
+    background-color: rgb(201, 93, 201);
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+.blue {
+    background-color: blue;
+}
+
+button {
+    background-color: rgb(200, 255, 0);
+    width: 120px;
+    height: 70px;
+    margin: 15px auto;
+    
+   
+
+}
+.red {
+    background-color: rgb(233, 87, 87);
+    width: 120px;
+    height: 70px;
+}
+
+.fuck {
+    position: relative;
+}
