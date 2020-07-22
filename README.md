@@ -38,3 +38,5 @@ Lesson 35 its folder js (les.35 - defer/async динамическая загр�
 Lesson 36-37 folder les.37 (ClassList и делегирование событий);
 
 Lesson 38 folder les.38 (ClassList и делегирование событий и другое);
+
+Lesson 39 folder les.39 (setTimeout, setInterval and Animation with that);
