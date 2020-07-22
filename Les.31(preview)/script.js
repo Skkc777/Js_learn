@@ -12,8 +12,8 @@ overlay = document.querySelector('.overlay');
 //       alert('Click');              // почти неиспользуется; в редких случаях
 // };
 
-// btn.addEventListener('click', () => {              // первый аргумент addEventListener click или другой keypad или прочее
-//     alert('Click');                        // задает чем именно кликаешь и всегда маленькими буквами
+// btn.addEventListener('click', () => {              // первый аргумент addEventListener click или 
+//     alert('Click');               //другой keypad или прочее задает чем именно кликаешь и всегда маленькими буквами
 // });
 
 
@@ -21,11 +21,11 @@ overlay = document.querySelector('.overlay');
 //     alert('эй ё че каво сучары');                        // задает второе действие клика
 // });
 
-// btn.addEventListener('mouseenter', (event) => {              // при наводе мыши выводит значение функции ппц прикольно
-//     console.log('эй ё че каво сучары');                        // задает третье  действие клика
+// btn.addEventListener('mouseenter', (event) => {              // при наводе мыши выводит 
+//     console.log('эй ё че каво сучары');        //значение функции ппц прикольно задает третье  действие клика
 // });
 
-// btn.addEventListener('click', (event) => {              // mouseenter при наводе мыши выводит значение функции ппц прикольно
+// btn.addEventListener('click', (event) => {     // mouseenter при наводе мыши выводит значение функции ппц прикольно
 //     console.log('event.target');   
 //     event.target.style.cssText = 'background-color: red;';
 // });
@@ -59,8 +59,8 @@ overlay = document.querySelector('.overlay');
 const link = document.querySelector('a');
 
 link.addEventListener('click', function(event){
-    event.preventDefault(); // отмена действия с ссылкой на странице, то есть сейчас при клике на нее произойдет другое действие
-                 // а именно вывод в консоль таргет элемента где он находится
+    event.preventDefault(); // отмена действия с ссылкой на странице, то есть сейчас при клике на нее 
+                 //  произойдет другое действие а именно вывод в консоль таргет элемента где он находится
     console.log(event.target);   
 });
 
