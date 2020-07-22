@@ -36,3 +36,5 @@ Lesson 34 its l.34(eventsForMobile.js) (les.34 - Мобильные Событи
 Lesson 35 its folder js (les.35 - defer/async динамическая загрузка скриптов в браузер);
 
 Lesson 36-37 folder les.37 (ClassList и делегирование событий);
+
+Lesson 38 folder les.38 (ClassList и делегирование событий и другое);
