@@ -40,3 +40,7 @@ Lesson 36-37 folder les.37 (ClassList и делегирование событи
 Lesson 38 folder les.38 (ClassList и делегирование событий и другое);
 
 Lesson 39 folder les.39 (setTimeout, setInterval and Animation with that);
+
+Lesson 40 folder les.40(Date and other Set, Get Time);
+
+
